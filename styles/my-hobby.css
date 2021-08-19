@@ -1,0 +1,86 @@
+body {
+		margin-left: 50px;
+		margin-right: 50px;
+		font-family: Georgia;
+		color: #483D8B;
+		background-color: #6699CC;
+		background-image: linear-gradient(#ffffff, #6699CC);
+		font-size: 25px;
+}
+h1, h3, footer, nav {
+		text-align : center;
+}
+h2 {
+		text-align : center;
+		font-weight : bold;
+		font-size : 35px;
+}
+p { 
+		text-align : left; 
+		font-size : 20px;
+}
+ol {
+		font-size : 20px;
+		text-indent : 1em;
+}
+a {		
+		
+		text-decoration: none;
+}
+div img{   
+		display : block;
+		margin-left : auto;
+		margin-right : auto;
+		width : 25%; 
+		font-size : 25px;
+		font-weight: bold;
+		border-width:4px;
+		border-style : solid;
+		border-color : black;
+}
+.column {
+		float: left ;
+		width: 28%;
+		padding: 5px;
+		margin-left: 25px;
+		margin-right: 25px;
+	
+}
+.row::after{
+		content: "";
+		clear: both;
+		display: table;
+}		
+figure img{
+		display : block;
+		margin-left : auto;
+		margin-right : auto;
+		width : 25%; 
+		font-size : 25px;
+		font-weight: bold;
+		border-width:4px;
+		border-style : solid;
+		border-color : black;
+}
+figcaption {
+		text-align: center;
+		font-style: italic;
+}		
+div p{
+		text-align : center;
+		font-size : 25px;
+		font-style: italic;
+}
+footer a{
+		color: pink;
+		text-decoration: none;
+}
+footer p{
+		font-style: italic;
+		text-align: center;
+		color: #483D8B;
+}	
+header, nav, main, footer { display: block; }
+	
+	
+		

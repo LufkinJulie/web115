@@ -1,0 +1,88 @@
+body {
+		margin: 0 50px 0 50px;
+		font-family: Georgia, serif;
+		background-color : lightgray;
+		font-size : 25px;
+		color: #e67e00;
+		
+}
+h1 {
+		text-align : center;
+		color: #336600;
+		padding: .1em;
+		margin: 1px;
+		font-size: 40px;
+}
+h2 {
+		text-align : center;
+		font-weight : bold;
+}
+dt {
+		text-align : left; 
+		font-weight : bold;
+}
+dd  {	
+		color: #336600;
+		font-size: 20px;
+}
+.page	{
+		color: #336600;
+		text-align: center;
+}		
+
+footer p{
+		text-align : center;
+		color: #336600;
+		font-style: italic;
+		padding: .2em;
+		margin: 1px;
+}
+footer, nav {
+		text-align: center;
+		margin: 0px;
+		padding: .1em
+}
+header, footer{
+		border: solid 4px #336600;
+		font-size: 20px;
+}
+footer {
+		position: relative;
+		left: 0;
+		bottom: 2px;
+		width: 100%;
+}
+#grass	{
+		display: inline-block;
+		float: right;
+		width : 40%; 
+		height: 40%;
+		border: solid 4px #e67e00;
+}
+figure figcaption	{
+		text-align: right;
+		padding-right: 110px;
+		font-size: 20px;
+		font-style: italic;
+		}
+a {
+		text-decoration: none;
+		color: #336600;
+}
+#logo {
+		float: left;
+		border: solid 4px #e67e00;
+		position: absolute;
+		top: 20px;
+		left:70px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+}
+		
+
+	
+	
+
+	
+		

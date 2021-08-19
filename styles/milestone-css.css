@@ -1,0 +1,66 @@
+body {
+		margin : 100px;
+		font-family: Arial, Helvetica, sans-serif;
+		background-color : lightgray;
+		font-size : 25px;
+		color: #e67e00;
+		}
+h1 {
+		text-align : center;
+		color: #336600;
+}
+dt {
+		text-align : left;
+}
+h2 {
+		text-align : center;
+		font-weight : bold;
+}
+p {	
+		font-size : 25px;
+		color: #336600;
+}
+ol, ul {
+		font-size : 25px;
+		color: #336600;
+}	
+h3 {
+		text-align : left; 
+		font-weight : bold;
+}
+footer 
+	p{
+		text-align : center;
+		color: #336600
+}
+footer {
+		text-align: center;
+}		
+figure 
+	img{   
+		display : block;
+		margin-left : auto;
+		margin-right : auto;
+		width : 70%; 
+		font-size : 25px;
+		font-weight: bold;
+		text-align : center;
+}
+ul {
+		font-size : 25px;
+}
+a {
+		text-decoration: none;
+		
+}
+nav { text-align: center;}
+nav 
+	a{ 	font-size: 35px;
+		color: #336600;
+		font-size: 25px;
+}	
+	
+	
+
+	
+		
