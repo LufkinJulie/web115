@@ -6,6 +6,11 @@ body {
 		background-color: #7FB3D5;
 		font-size: 25px;
 }
+h1 {
+		text-align: center;
+		color: #6E2C00;
+		font-style: italic;
+}
 header, h2, h3, p  {
 		text-align: center;
 		margin: 0px;
@@ -33,15 +38,20 @@ footer, footer	p{
 		font-style: italic;
 		text-align: center;
 }
-h1 {
-		text-align: center;
-		color: #6E2C00;
-		font-style: italic;
-}
 nav {
 		text-align: center;
 		font-size: 25px;
 }
-
-
+.input	{
+		float: center;
+		width: 100%;
+		height: 100%; 
+		background-color: #bbe4e9;
+}
+.output	{
+		float: center;
+		width: 100%;
+		height: 100%; 
+		background-color: #dfcdc3;
+}
 header, nav, main, footer { display: block; }
