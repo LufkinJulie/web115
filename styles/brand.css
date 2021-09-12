@@ -43,13 +43,11 @@ nav {
 		font-size: 25px;
 }
 .input	{
-		float: center;
 		width: 100%;
 		height: 100%; 
 		background-color: #bbe4e9;
 }
 .output	{
-		float: center;
 		width: 100%;
 		height: 100%; 
 		background-color: #dfcdc3;
