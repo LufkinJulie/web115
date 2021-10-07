@@ -66,4 +66,17 @@ main p {
 .distance {
 		margin-left: 25px;
 }
+legend {
+		display: block;
+		margin-left: 25px;
+}
+fieldset {
+		margin-left: 500px;
+		margin-right: 500px;
+}
+label, input {
+		margin-left: 25px;
+}
+
+
 header, nav, main, footer { display: block; }
