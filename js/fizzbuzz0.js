@@ -23,7 +23,7 @@ function answer(numCount)
 		} else {
 			evenOdd = "This number is odd";
 		}
-		// list under ul
+		// creating the list element
 		var newEl = document.createElement('li');
 		
 		// text output
@@ -34,6 +34,6 @@ function answer(numCount)
 		
 		// where to place on page
 		var place = document.getElementsByTagName('ul')[0];
-		place,appendChild(newE
+		place.appendChild(newEl)
 }
 		
