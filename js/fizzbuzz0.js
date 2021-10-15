@@ -19,7 +19,7 @@ function getAnswer(count) {
 		var evenOdd;
 		
 		if (i % 2===0) {
-			evenOd="This number is even";
+			evenOdd="This number is even";
 		} else {
 			evenOdd="This number is odd";
 		}
