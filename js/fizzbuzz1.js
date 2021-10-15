@@ -2,30 +2,36 @@ function getNames() {
 	let fName=document.getElementById("fName").value;
 	let lName=document.getElementById("lName").value;
 	let mInitial=document.getElementById("mInitial").value;
-	
+	let numCount = 140;
 	if (mInitial) {
 	document.getElementById("welcome").textContent=`Welcome to Old Dog Coding, ${fName} ${mInitial}, ${lName}!`;
 	} 
 	else {
 		document.getElementById("welcome").textContent=`Welcome to Old Dog Coding, ${fName} ${lName}!`;
 	}
-	let numCount = prompt(`How high can you count ${fName}?`);
 	getAnswer(numCount);
 }
-function getAnswer(count) {
-	for (let i=0; i<=count; i++) {
-		var evenOdd;
-		
-	if (i % 2 === 0) {
-		evenOdd = "This number is even";
-	} else {
-		evenOdd = "This number is odd";
+function getAnswer(numCount) {
+	for (let i=1; i<=numCount; i++) {
+		var third;
+	
+	if (i % 5 === 0 && i % 3 == 0) {
+		third = "Tag your it";
 	}
+		else if (i % 5 === 0) {	
+		third = "Run";
+	} 
+		else if (i % 3 === 0) {
+		third = "Goose";
+	}
+		else {
+			third = "Duck";
+		}
 		// creating the list element
 		var newEl = document.createElement("li");
 		
 		// text output
-		var newList = document.createTextNode(i + " Old Dog Coding -" + evenOdd);
+		var newList = document.createTextNode(i + " Old Dog Coding -" + third);
 			
 		// append info
 		newEl.appendChild(newList);
