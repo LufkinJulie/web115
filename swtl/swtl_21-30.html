@@ -28,8 +28,101 @@
 		<a href = "swtl_81-19.html" target="blank"> Chapter 81-89</a>  
 	</nav>
 	<p>
-	Sorry currently under construction!!! Be back soon &hearts;
+	<h3>Chapter 21:<br> Changing case</h3>
+	<p class = "swtl">
+	Converting words to Upper or Lower Case<br>
+	var city = "Boston"<br>
+	var b = city.toLowerCase();<br>
+	output: boston
 	</p>
+	<h3>Chapter 22:<br> Strings:<br> Measuring length and extracting parts</h3>
+	<p class = "swtl">
+	Use slice to extract segements of a word or string.<br>
+	var city = "Boston"<br>
+	var b = city.slice(0,1);<br>
+	output: "B"<br>
+	<br>
+	Use length to measure the length of a word<br>
+	var city = "Boston";<br>
+	var x = city.length;<br>
+	output: x = 6
+	</p>
+	<h3>Chapter 23:<br>Strings:<br>Finding segments</h3>
+	<p  class = "swtl">
+	Assign a string to a variable.<br>
+	Code an alert that displays the index of a segment that occurs in the string.<br>
+	var a = "The rain in Spain";<br>
+	alert(a.indexOf("rain"));<br>
+	output: 4
+	</p>
+	<h3>Chapter 24:<br>Strings:<br>Finding a character at a location</h3>
+	<p class = "swtl">
+	Code the first line of an if statement that tests whether the 3rd character of a string represented by a variable is a particular character.<br>
+	if (a.charAt(2) === "X");
+	</p>
+	<h3>Chapter 25:<br>Strings:<br>Replacing characters</h3>
+	<p class = "swtl">
+	Use replace to replace the first instinct a word or number with another.<br>
+	var x = "The rain in Spain";<br>
+	x = x.replace("Spain", "France");<br>
+	output: x = "The rain in France"<br>
+	<br>
+	Use replace and / / g to global replace a word.
+	var x = "The rain in Spain";<br>
+	x = x.replace(/Spain/g, "France");<br>
+	output: x = "The rain in France"
+	</p>
+	<h3>Chapter 26:<br>Rounding numbers</h3>
+	<p class = "swtl">
+	Use Math.round() to nearest integer.<br>
+	var x = Math.round(1.5); // rounded up since it is .5 and a positive number.
+	output: x = 2<br>
+	<br>
+	Use Math.ceil() to round up.<br>
+	var.x = Math.ceil(1.1);<br>
+	output: x = 2<br>
+	<br>
+	Use Math.floor() to round down.<br>
+	var x = Math.floor(2.5);<br>
+	output: x = 2
+	</p>
+	<h3>Chapter 27:<br>Generating random numbers</h3>
+	<p class = "swtl">
+	Use Math.randon() to create a random number.<br>
+	var x = Math.random();<br>
+	var y = (x + 6) + 1; 	// to covert the number <br>
+	var z = Math.floor(y); 	// to round down the number to the nearest integer.
+	</p>
+	<h3>Chapter 28:<br>Converting strings to integers and decimals</h3>
+	<p class = "swtl">
+	Use parseInt to convert a number to an integer.<br>
+	var x = parseInt("1.99");<br>
+	output: x = "1"<br>
+	<br>
+	Use parseFloat to preserve the decimal value of a decimal.<br>
+	var x = parseFloat("1.99");<br>
+	output: x = "1.99"
+	</p>
+	<h3>Chapter 29:<br>Converting strings to numbers, numbers to strings</h3>
+	<p class = "swtl">
+	Use Number to covert a string to a number.<br>
+	var x = "24"<br>
+	var y = Number(x);<br>
+	output: y = 24<br>
+	<br>
+	Use toString() to covert a number to a string<br>
+	var x = 24;<br>
+	var y = x.toString();<br>
+	output: y = "24"
+	</p>
+	<h3>Chapter 30:<br>Controlling the length of decimals</h3>
+	<p class = "swtl">
+	Use toFixed() to help control the number of decimals.<br>
+	var x = 1.234567;<br>
+	x = x.toFixed(2);<br>
+	output: x = "1.23"
+	</p>
+</main>
 </main>
 <footer>
 	<div><hr>
@@ -44,7 +137,7 @@
 		<a href = "https://www.linkedin.com/in/julie-lufkin-0a611a52/">LinkedIn </a>
 		</nav>	
 	</div><hr>
-	<p>&nbsp;&#9885;&nbsp;Designed by Lufkin's Design &copy;2020&nbsp;&#9885;&nbsp;</p>
+	<p>&nbsp;&#9885;&nbsp;Site by Lufkin's Design &copy;2020&nbsp;&#9885;&nbsp;</p>
     <a href = "http://validator.w3.org/check?uri=referer">
          <img src ="../images/yellow-button-html.png"  
                  alt ="Validate HTML!" 
