@@ -96,5 +96,7 @@ h3 {
 		height: 100%; 
 		background-color: #FFEFD5;
 }
-
+input::placeholder {
+		text-align: center;
+}
 header, nav, main, footer {display: block;}
