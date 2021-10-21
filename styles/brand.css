@@ -99,7 +99,7 @@ h3 {
 input::placeholder {
 		text-align: center;
 }
-ul {
+.col {
 		column-count: 4;
 }
 header, nav, main, footer {display: block;}
