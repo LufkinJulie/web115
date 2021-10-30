@@ -1,4 +1,5 @@
-function getNames() {
+function getNames() 
+{
 	let firstName = document.getElementById("firstName").value;
 	let lastName = document.getElementById("lastName").value;
 	let middleInitial = document.getElementById("middleInitial").value;
@@ -16,7 +17,8 @@ function getNames() {
 	}
 	getAnswer(numCount, firstDivisor, secondDivisor);
 }
-function getFizzy(firstDivisor, secondDivisor) {
+function getFizzy(firstDivisor, secondDivisor) 
+{
 	if (firstDivisor % secondDivisor === 0) 
 	{
 		return true;
@@ -26,7 +28,8 @@ function getFizzy(firstDivisor, secondDivisor) {
 		return false;
 	}
 }
-function getAnswer(numCount,firstDivisor, secondDivisor) {
+function getAnswer(numCount,firstDivisor, secondDivisor) 
+{
 	for (let i=1; i<=numCount; i++) 
 	{
 		var third;
@@ -51,7 +54,7 @@ function getAnswer(numCount,firstDivisor, secondDivisor) {
 		var newList = document.createElement("li");
 		
 		// text output
-		var newTextOutput = document.createTextNode(i + " " + third);
+		var newTextOutput = document.createTextNode(i + ": " + third);
 			
 		// append info
 		newList.appendChild(newTextOutput);

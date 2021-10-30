@@ -58,7 +58,7 @@ function getAnswer(numCount,firstDivisor, secondDivisor, thirdDivisor)
 		var newEl = document.createElement("li");
 		
 		// text output
-		var newList = document.createTextNode(i + " " + third);
+		var newList = document.createTextNode(i + ": " + third);
 			
 		// append info
 		newEl.appendChild(newList);

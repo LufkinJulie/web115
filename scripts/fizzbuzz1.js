@@ -1,4 +1,5 @@
-function getNames() {
+function getNames() 
+{
 	var firstName = document.getElementById("firstName").value;
 	var lastName = document.getElementById("lastName").value;
 	var middleInitial = document.getElementById("middleInitial").value;
@@ -12,7 +13,8 @@ function getNames() {
 	}
 	getAnswer(numCount);
 }
-function getAnswer(numCount) {
+function getAnswer(numCount) 
+{
 	for (let i=1; i<=numCount; i++) {
 		var third;
 	
