@@ -32,7 +32,7 @@ function getAnswer(numCount) {
 		var newList = document.createElement("li");
 		
 		// text output
-		var newTextOutput = document.createTextNode(i + " " + third);
+		var newTextOutput = document.createTextNode(i + ": " + third);
 			
 		// append info
 		newList.appendChild(newTextOutput);
