@@ -1,72 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Old Dog Coding - Fizz Buzz 0</title>
+	<title>Fizz Buzz 0</title>
 	<link rel = "stylesheet" type = "text/css" href = "styles/brand.css"/>
-	<script src = "js/fizzbuzz0.js"></script>
+	<script src = "scripts/fizzbuzz0.js"></script>
 	<meta charset = "utf-8">
 </head>
 <body>	
-	<header><hr>
-		<h1>Julie Lufkin&nbsp;&#9885;&nbsp;Web 115</h1>
-		<nav><hr> 
+	<header>
+		<h1 class = "blocking">Old Dog Coding &nbsp;&#9885;&nbsp; Fizz Buzz 0</h1>
+		<nav>
 			<a href = "brand-toc.html" target="_blank">Table of Contents</a> &nbsp;&#10247;&nbsp;
-			<a href = "web115_contract.html" target="_blank">Contract</a> &nbsp;&#10247;&nbsp;
-			<a href = "web115_introduction.html" target="_blank">Introduction</a>
-		</nav><hr>
+			<a href = "contract.html" target="_blank">Contract</a> &nbsp;&#10247;&nbsp;
+			<a href = "introduction.html" target="_blank">Introduction</a>
+		</nav>
 	</header>
 <main>
 	<h2 id="welcome">Welcome to Old Dog Coding</h2>
-		<nav>
-		<a href = "fizzbuzz0.html" target = "_blank">Fizz Buzz 0</a>&nbsp;&#10247;&nbsp;
-		<a href = "fizzbuzz1.html" target = "_blank">Fizz Buzz 1</a>&nbsp;&#10247;&nbsp;
-		<a href = "fizzbuzz2.html" target = "_blank">Fizz Buzz 2</a>
-	</nav><br>
-	<h3>Fizz Buzz 0</h3><br>
-	<form id="cust_Info">
+	<form id = "cust_Info">
 		<fieldset>
 			<legend>Customer Information</legend>
-			<label for="fName">First Name:</label>
+			<label for = "firstName">First Name:</label>
 			<br> 
-			<input type="text" id="fName"  size="30" placeholder="Enter your First name here." text-align: center, required>
+			<input type = "text" id = "firstName"  size = "30" placeholder = "Enter your First name here."required>
 			<br>
-			<label for ="lName">Last Name:</label>
+			<label for = "lastName">Last Name:</label>
 			<br>
-			<input type="text" id="lName" size="30" placeholder="Enter your Last name here." required>
+			<input type = "text" id = "lastName" size = "30" placeholder = "Enter your Last name here."required>
 			<br>
-			<label for="mInitial">Middle Initial:</label>
+			<label for = "middleInitial">Middle Initial:</label>
 			<br>
-			<input type="text" id="mInitial" size="30" placeholder="Enter your Middle Initial name here.">
+			<input type = "text" id = "middleInitial" size = "30" placeholder = "Enter your Middle Initial name here.">
 			<br>
-			<input type="button" id="submit" onclick="return getNames()" value="Submit" />
+			<input type = "button" id = "submit" onclick = "return getNames()" value = "Submit" />
 		</fieldset>
 	</form>
-	<ul id="getAnswer"></ul>
-	<br><div class = "tagline">This old dog did learn some new tricks</div>
-</main>
-	
-<footer>
-	<div><hr>
+	<ul id = "getAnswer"></ul>
+	<div class = "tagline">This old dog did learn some new tricks</div><br>
+</main>	
+<footer class = "blocking">
+	<div>
 		<nav>
 		<a href = "https://github.com/LufkinJulie">GitHub</a>&nbsp;&#10247;&nbsp;
 		<a href = "https://lufkinjulie.github.io/">GitHub Pages</a>&nbsp;&#10247;&nbsp;
 		<a href = "https://github.com/LufkinJulie/web115">GitHub Course Page</a>&nbsp;&#10247;&nbsp;
 		<a href = "https://www.freecodecamp.org/lufkinj">Freecodecamp</a>&nbsp;&#10247;&nbsp;
-		<a href = "https://www.codecademy.com/profiles/LufkinJ">Codecademy</a><br>
-		<a href = "https://www.khanacademy.org/profile/LufkinJ/">Khan Academy </a>&nbsp;&#10247;&nbsp;
-		<a href = "https://jsfiddle.net/user/LufkinJ/fiddles/">JSFiddle</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://www.codecademy.com/profiles/LufkinJ">Codecademy</a>&nbsp;&#10247;&nbsp;
 		<a href = "https://www.linkedin.com/in/julie-lufkin-0a611a52/">LinkedIn </a>
 		</nav>	
-	</div><hr>
-	<p>Site by Lufkin's Design &copy;2020</p>
-    <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Flufkinjulie.github.io%2Fweb115%2Ffizzbuzz0.html">
-         <img src ="images/yellow-button-html.png"  
-                 alt ="Validate HTML!" 
-              style = "border: 0; width: 88px; height: 31px" /></a>	 
-   <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flufkinjulie.github.io%2Fweb115%2Ffizzbuzz0.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-		<img src = "images/blue-button-css.png"
-            alt = "Validate CSS!" 
-            style = "border: 0; width: 88px; height: 31px" /></a>
+	</div>
+	<p>Site by Lufkin's Design &copy;2021</p>
+    <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Flufkinjulie.github.io%2Fweb115%2Ffizzbuzz0.html" class = "buttons">HTML</a>&nbsp;&#9885;&nbsp; 	 
+	<a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flufkinjulie.github.io%2Fweb115%2Ffizzbuzz0.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" class = "buttons">
+			   CSS</a>
 </footer>
 </body>
 </html>
