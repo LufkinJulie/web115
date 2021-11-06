@@ -81,11 +81,18 @@ legend {
 		margin-left: 25px;
 }
 fieldset {
-		margin-left: 500px;
-		margin-right: 500px;
+		margin-left: 400px;
+		margin-right: 400px;
 }
 label, input {
 		margin-left: 25px;
+}
+.space {
+		width:180px;
+		clear:left;
+		text-align:center;
+		padding-right:10px;
+		float: right;
 }
 figure {
 		text-align: center;
