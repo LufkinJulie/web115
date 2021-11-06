@@ -1,8 +1,8 @@
 function getNames() 
 {
-	let firstName = document.getElementById("firstName").value;
-	let lastName = document.getElementById("lastName").value;
-	let middleInitial = document.getElementById("middleInitial").value;
+	var firstName = document.getElementById("firstName").value;
+	var lastName = document.getElementById("lastName").value;
+	var middleInitial = document.getElementById("middleInitial").value;
 	let numCount = 140;
 	let firstDivisor = 3;
 	let secondDivisor = 5;
