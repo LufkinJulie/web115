@@ -15,21 +15,26 @@ function getNames()
 }
 function getAnswer(numCount) 
 {
-	for (let i=1; i<=numCount; i++) {
+	for (let i=1; i<=numCount; i++) 
+	{
 		var third;
 	
-	if (i % 5 === 0 && i % 3 == 0) {
-		third = "Tag your it";
+	if (i % 5 === 0 && i % 3 == 0) 
+	{
+		third = "Old Dog Coding";
 	}
-		else if (i % 5 === 0) {	
-		third = "Run";
+	else if (i % 5 === 0) 
+	{	
+		third = "Coding";
 	} 
-		else if (i % 3 === 0) {
-		third = "Goose";
+	else if (i % 3 === 0) 
+	{
+		third = "Dog";
 	}
-		else {
-			third = "Duck";
-		}
+	else
+	{
+		third = "Old";
+	}
 		// creating the list element
 		var newList = document.createElement("li");
 		

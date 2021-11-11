@@ -36,19 +36,19 @@ function getAnswer(numCount,firstDivisor, secondDivisor)
 	
 	if (getFizzy(i, firstDivisor) && getFizzy(i, secondDivisor)) 
 		{
-			third = "Tag your it";
+			third = "Old Dog Coding";
 		}
 		else if (getFizzy(i, secondDivisor)) 
 		{	
-			third = "Run";
+			third = "Coding";
 		}
 		else if (getFizzy(i, firstDivisor)) 
 		{
-			third = "Goose";
+			third = "Dog";
 		}
 		else 
 		{
-			third = "Duck";
+			third = "Old";
 		}
 		// creating the list element
 		var newList = document.createElement("li");

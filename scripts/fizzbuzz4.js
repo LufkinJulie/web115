@@ -37,9 +37,21 @@ function getAnswer(numCount,firstDivisor, secondDivisor, thirdDivisor, firstWord
 	for (let i = 1; i <= numCount; i++)
 	{	
 		var third;
-	if (getFizzy(i, firstDivisor) && getFizzy(i, secondDivisor) && getFizzy(i, thirdDivisor)) 
+	if (getFizzy(i, firstDivisor) && getFizzy(i, secondDivisor) && getFizzy(i, thirdDivisor))  
 		{
 			third = `${firstWord} ${secondWord} ${thirdWord}`;
+		}
+		else if (getFizzy(i, secondDivisor) && getFizzy(i, thirdDivisor))
+		{
+			third =`${secondWord} ${thirdWord}`;
+		}
+		else if (getFizzy(i, firstDivisor) && getFizzy(i, secondDivisor)) 
+		{
+			third = `${firstWord} ${secondWord}`;
+		}
+		else if (getFizzy(i, firstDivisor) && getFizzy(i, thirdDivisor)) 
+		{
+			third = `${firstWord} ${thirdWord}`;
 		}
 		else if (getFizzy(i, thirdDivisor))
 		{

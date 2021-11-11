@@ -7,7 +7,7 @@ function getNames()
 	let firstDivisor = 3;
 	let secondDivisor = 5;
 	let thirdDivisor = 7;
-
+	
 	if (middleInitial) 
 	{
 		document.getElementById("welcome").textContent = `Welcome to Old Dog Coding, ${firstName} ${middleInitial}, ${lastName}!`;
@@ -35,24 +35,36 @@ function getAnswer(numCount,firstDivisor, secondDivisor, thirdDivisor)
 	{
 		var third;
 	
-	if (getFizzy(i, firstDivisor) && getFizzy(i, secondDivisor) && getFizzy(i, thirdDivisor)) 
+	if	(getFizzy(i, firstDivisor) && getFizzy(i, secondDivisor) && getFizzy(i, thirdDivisor)) 
 		{
-		third = "Tag your it";
+			third = "Old Dog Coding";
 		}
-		else if (getFizzy(i, thirdDivisor))
+		else if (getFizzy(i, secondDivisor) && getFizzy(i, thirdDivisor))
 		{
-			third = "Sit";
+			third = "Dog Coding";
+		}
+		else if (getFizzy(i, firstDivisor) && getFizzy(i, secondDivisor))
+		{
+			third = "Old Dog";
+		}	
+		else if (getFizzy (i, firstDivisor) && getFizzy(i, thirdDivisor))
+		{
+			third = "Old Coding";
+		}
+		else if(getFizzy(i, thirdDivisor))
+		{
+			third = "Coding";
 		}
 		else if (getFizzy(i, secondDivisor)) 
 		{	
-			third = "Run";
+			third = "Dog";
 		}
 		else if (getFizzy(i, firstDivisor)) 
 		{
-			third = "Goose";
+			third = "Old";
 		}
 		else {
-			third = "Duck";
+			third = "Welcome";
 		}
 		// creating the list element
 		var newEl = document.createElement("li");

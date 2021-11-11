@@ -17,9 +17,14 @@ header, h2, h3, p  {
 		margin: 0px;
 		padding: .1em
 }
-h4, .tagline {
+h4, {
 		text-align: center;
 		font-style: italic;
+}
+.tagline {
+		text-align: center;
+		font-style: italic;
+		border-bottom: 10px double #dfcdc3;
 }
 footer div{
 		text-align: center; 
@@ -71,7 +76,7 @@ main p {
 		text-align: left;
 }
 .blocking {
-		border: 10px double #dfcdc3;
+		border-bottom: 10px double #dfcdc3;
 }
 .distance {
 		margin-left: 525px;
@@ -81,6 +86,10 @@ legend {
 		margin-left: 25px;
 }
 fieldset {
+		margin-left: 500px;
+		margin-right: 500px;
+}
+.sidebyside	{
 		margin-left: 400px;
 		margin-right: 400px;
 }
@@ -126,7 +135,14 @@ ul {
 		display: inline-block;
 }
 .buttons {
-		font-size: 20px;
-		text-decoration: underline;
+		 border: double #dfcdc3;
+		 color: #6E2C00;
+		 padding: 5px 24px;
+		 text-align: center;
+		 text-decoration: none;
+		 display: inline-block;
+		 font-size: 10px;
+		 margin: 4px 2px;
+		 cursor: pointer;
 }
 header, nav, main, footer {display: block;}
