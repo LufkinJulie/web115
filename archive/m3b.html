@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Console/Code Play</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles/brand.css"/>
+	<meta charset="utf-8">
+</head>
+<body>	
+	<header>
+		<h1 class = "blocking">Julie Lufkin&nbsp;&#9885;&nbsp;Web 115</h1>
+		<nav>
+			<a href = "brand-toc.html" target="_blank">Table of Contents</a>&nbsp;&#10247;&nbsp;
+			<a href = "contract.html" target="_blank">Contract</a>&nbsp;&#10247;&nbsp;
+			<a href = "introduction.html" target="_blank">Introduction</a>
+		</nav>
+	</header>
+<main>
+	<br><h3>Console/Code Play</h3>
+	<p class = "input">input</p>
+	<p class = "output">output</p>
+	<br>
+	<p class = "input">3*4</p>
+	<p class = "output">12</p>
+	<br>
+	<p class = "input">Math.sqrt(3);</p>
+	<p class = "output">1.7320508075688772</p>
+	<br>
+	<p class = "input">4>3;</p>
+	<p class = "output">true</p>
+	<br>
+	<p class = "input">Math.min(4,12);</p>
+	<p class = "output">4</p>
+	<br>
+	<p class = "input">type(4);</p>
+	<p class = "output">VM176:1 Uncaught ReferenceError: type is not defined</p>
+    <p class = "output">at anonymous:1:1 (anonymous) @ VM176:1</p>
+	<br>
+	<p class = "input">getType(3);</p>
+	<p class = "output">VM207:1 Uncaught ReferenceError: getType is not defined</p>
+    <p class = "output">at anonymous:1:1 (anonymous) @ VM207:1</p>
+	<br>
+	<p class = "input">typeof(4);</p>
+	<p class = "output">'number'</p>
+	<br>
+	<p class = "input">typeof("Julie");</p>
+	<p class = "output">'string'</p>
+	<br>
+	<p class = "input">typeof(3.5);</p>
+	<p class = "output">'number'</p>
+	<br>
+	<p class = "input">ord("A"), chr(65);</p>
+	<p class = "output">VM366:1 Uncaught ReferenceError: ord is not defined</p>
+	<p class = "output">at anonymous:1:1 (anonymous) @ VM366:1</p>
+	<br>
+	<p class = "input">chr(65);</p>
+	<p class = "output">VM391:1 Uncaught ReferenceError: chr is not defined</p>
+    <p class = "output">at anonymous:1:1 (anonymous) @ VM391:1</p>
+	<br>
+	<p class = "input">class(4);</p>
+	<p class = "output">VM436:1 Uncaught SyntaxError: Unexpected token '('</p>
+	<br>
+	<p class = "input">6*=2;</p>
+	<p class = "output">VM453:1 Uncaught SyntaxError: Invalid left-hand side in assignment</p>
+	<br>
+	<p class = "input">x=6, x*=2;</p>
+	<p class = "output">12</p>
+	<br>
+	<p class = "input">++1;</p>
+	<p class = "output">VM491:1 Uncaught SyntaxError: Invalid left-hand side expression in prefix operation</p>
+	<br>
+	<p class = "input">x = ++1;</p>
+	<p class = "output">VM514:1</p>
+	<br>
+	<p class = "input">Boolean(3>5)</p>
+	<p class = "output">false</p>
+	<br>
+	<p class = "input">string = "hello", len[0];</p>
+	<p class = "output">VM861:1 Uncaught ReferenceError: len is not defined</p>
+    <p class = "output">at anonymous:1:19</p>
+	<br>
+	<p class = "input">string = "hello", string[0];</p>
+	<p class = "output">'h'</p>
+	<br>
+	<p class = "input">"boo" * 2;</p>
+	<p class = "output">NaN</p>
+	<br>
+	<p class = "input">(10>8);</p>
+	<p class = "output">true</p>
+	<br>
+	<p class = "input">let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ", text.length;</p>
+	<p class = "output">VM1042:1 Uncaught SyntaxError: Identifier 'text' has already been declared</p>
+	<br>
+	<p class = "input">let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ", text.len;</p>
+	<p class = "output">VM1056:1 Uncaught SyntaxError: Identifier 'text' has already been declared</p>
+	<br>
+	<p class = "input">let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; text.length;</p>
+	<p class = "output">26</p>
+	<br>
+	<p class = "input">class(4);</p>
+	<p class = "output">VM1103:1 Uncaught SyntaxError: Unexpected token '('</p>
+	<br>
+	<p class = "input">var x = "50";</p>
+	<p class = "output">undefined</p>
+	<br>
+	<p class = "input">var x = 50;</p>
+	<p class = "output">undefined</p>
+	<br>
+	<p class = "input">var carName = "VW";</p>
+	<p class = "output">undefined</p>
+	<br>
+	<p class = "input">var carName = "VW"</p>
+	<p class = "output">undefined</p>
+	<br>
+	<p class = "input">text carName = "VW";</p>
+	<p class = "output">VM1282:1 Uncaught SyntaxError: Unexpected identifier</p>
+	<br>
+	<p class = "input">x = 3^2;</p>
+	<p class = "output">1</p>
+	<br>
+	<p class = "input">x = 3 * 3;</p>
+	<p class = "output">9</p>
+	<br>
+	<p class = "input">x = 3^2;</p>
+	<p class = "output">1</p>
+	<br>
+	<p class = "input">3%2;</p>
+	<p class = "output">1</p>
+	<br>
+	<p class = "input">3//4;</p>
+	<p class = "output">3</p>
+	<br>
+	<p class = "input">3**4;</p>
+	<p class = "output">81</p>
+	<br>
+	<p class = "input">3 != 4;</p>
+	<p class = "output">true9</p>
+	<br>
+	<p class = "input">let str = "Julie Lufkin"; str.slice(0,4)</p>
+	<p class = "output">'Juli'</p>
+	<br>
+	<p class = "input">let str = "Julie Lufkin"; str.slice(0,5)</p>
+	<p class = "output">'Julie'</p>
+	<br>
+	<p class = "input">let str = "Julie Lufkin"; str.slice(6,13)</p>
+	<p class = "output">'Lufkin'</p>
+	<br>
+	<p class = "input">string = "hello"; str[1:3];</p>
+	<p class = "output">VM1704:1 Uncaught SyntaxError: Unexpected token ':'</p>
+	<br>
+	<p class = "input">string = "hello", str[1:3];</p>
+	<p class = "output">VM1710:1 Uncaught SyntaxError: Unexpected token ':'</p>
+	<br>
+	<p class = "input">string = "hello"; len(string); str[1:3];</p>
+	<p class = "output">VM1739:1 Uncaught SyntaxError: Unexpected token ':'</p>
+	<br>
+	<p class = "input">string = "hello", len(string), str[1:3];</p>
+	<p class = "output">VM1749:1 Uncaught SyntaxError: Unexpected token ':'</p>
+	<br>
+	<p class = "input">Math.PI;</p>
+	<p class = "output">3.141592653589793</p>
+	<br>
+	<p class = "input">let str = "Please locate where 'locate' occurs!"; str.search("locate")</p>
+	<p class = "output">7</p>
+	<br>
+	<p class = "input">let text = "The rain in SPAIN stays mainly in the plain"; text.match(/ain/gi)</p>
+	<p class = "output">(4) ['ain', 'AIN', 'ain', 'ain']</p>
+	<br>
+	<p class = "input">let text = "She sells sea shells ny the sea shore"; text.match(/sea/he)</p>
+	<p class = "output">VM1888:1 Uncaught SyntaxError: Invalid regular expression flags</p>
+	<br>
+	<p class = "input">let text = "She sells sea shells ny the sea shore"; text.match(/sea)</p>
+	<p class = "output">VM1901:1 Uncaught SyntaxError: Invalid regular expression: missing /</p>
+	<br>
+	<p class = "input">let text = "She sells sea shells ny the sea shore"; text.match(/se)</p>
+	<p class = "output">VM1908:1 Uncaught SyntaxError: Invalid regular expression: missing /</p>
+	<br>
+	<p class = "input">let text = "She sells sea shells ny the sea shore"; text.match(/sho)</p>
+	<p class = "output">VM1917:1 Uncaught SyntaxError: Invalid regular expression: missing /</p>
+	<br>
+	<p class = "input">let text = "She sells sea shells by the sea shore"; text.match(/sho/sh)</p>
+	<p class = "output">VM1954:1 Uncaught SyntaxError: Invalid regular expression flags</p>
+	<div class = "tagline">This old dog did learn some new tricks</div>
+</main>
+<footer>
+	<nav>
+		<a href = "https://github.com/LufkinJulie">GitHub</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://lufkinjulie.github.io/">GitHub Pages</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://github.com/LufkinJulie/web115">GitHub Course Page</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://www.freecodecamp.org/lufkinj">Freecodecamp</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://www.codecademy.com/profiles/LufkinJ">Codecademy</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://www.linkedin.com/in/julie-lufkin-0a611a52/">LinkedIn </a>
+	</nav>
+	<p>Site by Lufkin's Design &copy;2021</p>
+    <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Flufkinjulie.github.io%2Fweb115%2Fm3b.html" target="_blank" class = "buttons">HTML</a>&nbsp;	 
+   <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flufkinjulie.github.io%2Fweb115%2Fm3b.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank" class = "buttons">
+		CSS</a>
+</footer>
+</body>
+</html>
+	
