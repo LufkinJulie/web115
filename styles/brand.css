@@ -51,9 +51,6 @@ nav {
 		text-align: center;
 		font-size: 25px;
 }
-.toc {
-		margin-left: 500px;
-}
 .input	{
 		width: 100%;
 		height: 100%; 
@@ -88,6 +85,16 @@ legend {
 fieldset {
 		margin-left: 500px;
 		margin-right: 500px;
+}
+.form_fieldset {
+		margin-left: 400px;
+		margin-right: 400px;
+}
+.form_space {
+		
+		margin: 25px;
+		text-align:left;
+		word-wrap: hard;
 }
 .sidebyside	{
 		margin-left: 400px;
@@ -130,9 +137,15 @@ input::placeholder {
 		column-width: 200px;
 		margin-left: 300px;
 }
+
 ul {
 		list-style-type: circle;
 		display: inline-block;
+}
+.toclist	{
+		list-style-type: circle;
+		margin-left: 520px;
+
 }
 .buttons {
 		 border: double #dfcdc3;
@@ -141,8 +154,10 @@ ul {
 		 text-align: center;
 		 text-decoration: none;
 		 display: inline-block;
-		 font-size: 10px;
+		 font-size: 15px;
 		 margin: 4px 2px;
 		 cursor: pointer;
+		 font-style: normal;
+		 font-family: Georgia;
 }
 header, nav, main, footer {display: block;}
