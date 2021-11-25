@@ -90,11 +90,17 @@ fieldset {
 		margin-left: 400px;
 		margin-right: 400px;
 }
-.form_space {
-		
-		margin: 25px;
-		text-align:left;
-		word-wrap: hard;
+textarea {
+		margin-bottom: 5px;
+		margin-top: 5px;
+		margin-left: 25px;
+		margin-right: 25px;
+		text-align: left;
+		white-space: pre-wrap;
+		display: inline-block;
+		justify-content: left;
+		align-items: left;
+		font-size: 15px;
 }
 .sidebyside	{
 		margin-left: 400px;

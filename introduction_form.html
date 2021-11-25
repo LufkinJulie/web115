@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Introduction Form</title>
+	<link rel = "stylesheet" type = "text/css" href = "styles/brand.css"/>
+	<script src = "scripts/intro_form.js"></script>
+	<!--<script src = "scripts/infoForm.js"></script>-->
+	<meta charset = "utf-8">
+</head>
+	<header>
+		<h1 class = "blocking">Julie Lufkin&nbsp;&#9885;&nbsp;Web 115</h1>
+		<nav>
+			<a href = "brand-toc.html" target="_blank">Table of Contents</a> &nbsp;&#10247;&nbsp;
+			<a href = "contract.html" target="_blank">Contract</a> &nbsp;&#10247;&nbsp;
+			<a href = "introduction.html" target="_blank">Introduction</a>
+		</nav>
+	</header>
+<body>
+<main>
+	<h2 id = "welcome">Welcome to Old Dog Coding</h2>
+	<form>
+		<fieldset class = "form_fieldset">
+			<label for = "firstName">First Name:</label><br>
+			<textarea rows = "2" cols = "70" id = "firstName" placeholder = "Enter your First name here."></textarea>
+			<br>
+			<label for = "lastName">Last Name:</label><br>
+			<textarea rows = "2" cols = "70" id = "lastName" placeholder = "Enter your Last name here."></textarea>
+			<br>
+			<label for = "personal_background">Personal Background:</label>
+			<textarea rows = "5" cols = "70" id = "personal_background" placeholder = "I was born in the Boston area, I have lived in Texas, New York and Washington State. Since my husband left the Army in 2012, we have lived in the Charlotte area. We bought a house in 2018 and have been slowly remodeling it. This year we are tackling the kitchen."></textarea>
+			<br>
+			<label for = "professional_background">Professional Background:</label><br>
+			<textarea rows = "5" cols = "70" id = "professional_background" placeholder = "Belk department stores since 2004"></textarea>
+			<br>
+			<label for = "academic_background">Academic Background:</label><br>
+			<textarea rows = "2" cols = "70" id = "academic_background" placeholder = "I am a Full Stack Programming student and I am scheduled to graduate next spring 2022."></textarea>
+			<br>
+			<label for = "subject_background">Background in this subject:</label><br>
+			<textarea rows = "8" cols = "70" id = "subject_background" placeholder = "I don't have a background in coding or in web but I have always been interested in computers, my father was a hardware engineer so I have been around computers most of my life.  I hate my current job and decided it was time to follow my dream of learning to code. Hoping to find a job or an internship by the time I graduate."></textarea>
+			<br>
+			<label for = "computer">Primary Computer Platform:</label><br>
+			<textarea rows = "2" cols = "70" id = "computer" placeholder = "I use a HP"></textarea>
+			<br>
+			<label for = "courses">Courses I'm Taking, & Why:</label><br>
+			<textarea rows = "8" cols = "70" id = "courses" placeholder = "*CIS-115-H150 Intro to Prog & Logic: I have taken this class before but wanted to stay current with Python, since I do not have a Python class till next semester, I was afraid of losing what I have learned so I am retaking to not feel behind.  							*WEB-115-N801 Web Markup and Scripting: I have to take this class to graduate, but since I really grew to enjoy WEB 110 last fall, I have been excited about taking this class."></textarea>
+			<br>
+			<label for = "remember_me">Something to Remember Me By:</label><br>
+			<textarea rows = "2" cols = "70" id = "remember_me" placeholder = "I love to play with power tools."></textarea>
+			<br>
+			<label for = "sharing">I'd Also Like to Share:</label><br>
+			<textarea rows = "2" cols = "70" id = "sharing" placeholder = "I am a huge animal lover."></textarea>
+			<br>
+			<input type = "button" id = "submit" onclick = "return getInfo()" value = "Submit" />
+		</fieldset>
+	</form>
+	<ul id = "getBackground" ></ul>
+	<div class = "tagline">This old dog did learn some new tricks</div>
+<footer>
+	<div>
+		<nav>
+		<a href = "https://github.com/LufkinJulie">GitHub</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://lufkinjulie.github.io/">GitHub Pages</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://github.com/LufkinJulie/web115">GitHub Course Page</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://www.freecodecamp.org/lufkinj">Freecodecamp</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://www.codecademy.com/profiles/LufkinJ">Codecademy</a>&nbsp;&#10247;&nbsp;
+		<a href = "https://www.linkedin.com/in/julie-lufkin-0a611a52/">LinkedIn </a>
+		</nav>	
+	</div>
+	<p>Site by Lufkin's Design &copy;2021</p>
+	<a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Flufkinjulie.github.io%2Fweb115%2Ffizzbuzz3.html" class = "buttons">HTML</a>&nbsp;&#9885;&nbsp; 	 
+	<a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flufkinjulie.github.io%2Fweb115%2Ffizzbuzz3.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" class = "buttons">
+			   CSS</a>
+</footer>
+</main>
+	<script src ="scripts/scriptDynamic.js"></script>
+</body>
+</html>
