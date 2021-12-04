@@ -20,7 +20,7 @@ function getInfo()
 }
 function getBackground(newInfo)
 {
-	for (let i = 0; i <= newInfo.length; i++)
+	for (let i = 0; i < newInfo.length; i++)
 	{
 		// creating the list element
 		var newList = document.createElement("li");
