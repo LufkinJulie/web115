@@ -73,6 +73,9 @@ main p {
 		margin-bottom: 20px;
 		text-align: left;
 }
+.parSWTL  	{
+		text-align: center;
+}
 .blocking {
 		border-bottom: 10px double #dfcdc3;
 }
