@@ -6,14 +6,7 @@
     <link rel = "stylesheet" type = "text/css" href = "../styles/brand.css"/>
 </head>
 <body>
-	<header><hr>
-		<h1>Julie Lufkin&nbsp;&#9885;&nbsp;Web 115</h1>
-		<nav><hr> 
-			<a href = "../brand-toc.html" target="_blank">Table of Contents</a> &nbsp;&#10247;&nbsp;
-			<a href = "../web115_contract.html" target="_blank">Contract</a> &nbsp;&#10247;&nbsp;
-			<a href = "../web115_introduction.html" target="_blank">Introduction</a>
-		</nav><hr>
-	</header>	
+	<div data-include = "components/swtl_header.html"></div>		
 <main>
 	<h2>Smarter Way to Learn JS 31-40</h2>
 	<nav>
@@ -28,31 +21,105 @@
 		<a href = "swtl_81-19.html" target="blank"> Chapter 81-89</a>  
 	</nav>
 	<p>
-	Sorry currently under construction!!! Be back soon &hearts;
+	<h3>Chapter 31:<br>Getting the current date and time</h3>
+	<p class = "swtl">
+	The new Date() get the current date and time.<br>
+	The getDay() helps pin point the day of the week.<br>
+	var dNames = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];<br>
+	var d = new Date();<br>
+	var g = d.getDay();<br>
+	alert(dNames[g]);<br>
+	output: Wed
+	</p>
+	<h3>Chapter 32:<br>Extracting parts of the date and time</h3>
+	<p class = "swtl">
+	getDay(): gets the day of the week.<br>
+	getMonth(): gets the month.<br>
+	getDate(): gets the day of the month.<br>
+	getFullYear(): current year.<br>
+	getHours(): current hour.<br>
+	getMinutes(): gets the minute.<br>
+	getSeconds(): gets seconds.<br>
+	getMilliseconds(): get the milliseconds<br>
+	getTime(): Get the milliseconds since 1.1.1970<br>
+	var d = new Date();<br>
+	alert(d.getFullYear());<br>
+	output: 2021
+	</p>
+	<h3>Chapter 33:<br>Specifying a date and time</h3>
+	<p  class = "swtl">
+	var d = new Date("October 31, 2021").getTime();<br>
+	alert(Math.floor(d / (1000 * 60 * 60 * 24)));<br>
+	output: 18931
+	</p>
+	<h3>Chapter 34:<br>Strings:<br>Finding a character at a location</h3>
+	<p class = "swtl">
+	Code the first line of an if statement that tests whether the 3rd character of a string represented by a variable is a particular character.<br>
+	if (a.charAt(2) === "X");
+	</p>
+	<h3>Chapter 25:<br>Strings:<br>Replacing characters</h3>
+	<p class = "swtl">
+	Use replace to replace the first instinct a word or number with another.<br>
+	var x = "The rain in Spain";<br>
+	x = x.replace("Spain", "France");<br>
+	output: x = "The rain in France"<br>
+	<br>
+	Use replace and / / g to global replace a word.
+	var x = "The rain in Spain";<br>
+	x = x.replace(/Spain/g, "France");<br>
+	output: x = "The rain in France"
+	</p>
+	<h3>Chapter 26:<br>Rounding numbers</h3>
+	<p class = "swtl">
+	Use Math.round() to nearest integer.<br>
+	var x = Math.round(1.5); // rounded up since it is .5 and a positive number.
+	output: x = 2<br>
+	<br>
+	Use Math.ceil() to round up.<br>
+	var.x = Math.ceil(1.1);<br>
+	output: x = 2<br>
+	<br>
+	Use Math.floor() to round down.<br>
+	var x = Math.floor(2.5);<br>
+	output: x = 2
+	</p>
+	<h3>Chapter 27:<br>Generating random numbers</h3>
+	<p class = "swtl">
+	Use Math.randon() to create a random number.<br>
+	var x = Math.random();<br>
+	var y = (x + 6) + 1; 	// to covert the number <br>
+	var z = Math.floor(y); 	// to round down the number to the nearest integer.
+	</p>
+	<h3>Chapter 28:<br>Converting strings to integers and decimals</h3>
+	<p class = "swtl">
+	Use parseInt to convert a number to an integer.<br>
+	var x = parseInt("1.99");<br>
+	output: x = "1"<br>
+	<br>
+	Use parseFloat to preserve the decimal value of a decimal.<br>
+	var x = parseFloat("1.99");<br>
+	output: x = "1.99"
+	</p>
+	<h3>Chapter 29:<br>Converting strings to numbers, numbers to strings</h3>
+	<p class = "swtl">
+	Use Number to covert a string to a number.<br>
+	var x = "24"<br>
+	var y = Number(x);<br>
+	output: y = 24<br>
+	<br>
+	Use toString() to covert a number to a string<br>
+	var x = 24;<br>
+	var y = x.toString();<br>
+	output: y = "24"
+	</p>
+	<h3>Chapter 30:<br>Controlling the length of decimals</h3>
+	<p class = "swtl">
+	Use toFixed() to help control the number of decimals.<br>
+	var x = 1.234567;<br>
+	x = x.toFixed(2);<br>
+	output: x = "1.23"
 	</p>
 </main>
-<footer>
-	<div><hr>
-		<nav>
-		<a href = "https://github.com/LufkinJulie">GitHub</a>&nbsp;&#10247;&nbsp;
-		<a href = "https://lufkinjulie.github.io/">GitHub Pages</a>&nbsp;&#10247;&nbsp;
-		<a href = "https://github.com/LufkinJulie/web115">GitHub Course Page</a>&nbsp;&#10247;&nbsp;
-		<a href = "https://www.freecodecamp.org/lufkinj">Freecodecamp</a>&nbsp;&#10247;&nbsp;
-		<a href = "https://www.codecademy.com/profiles/LufkinJ">Codecademy</a><br>
-		<a href = "https://www.khanacademy.org/profile/LufkinJ/">Khan Academy </a>&nbsp;&#10247;&nbsp;
-		<a href = "https://jsfiddle.net/user/LufkinJ/fiddles/">JSFiddle</a>&nbsp;&#10247;&nbsp;
-		<a href = "https://www.linkedin.com/in/julie-lufkin-0a611a52/">LinkedIn </a>
-		</nav>	
-	</div><hr>
-	<p>&nbsp;&#9885;&nbsp;Designed by Lufkin's Design &copy;2020&nbsp;&#9885;&nbsp;</p>
-    <a href = "http://validator.w3.org/check?uri=referer">
-         <img src ="../images/yellow-button-html.png"  
-                 alt ="Validate HTML!" 
-              style = "border: 0; width: 88px; height: 31px" /></a>	 
-   <a href = "http://jigsaw.w3.org/css-validator/check/referer">
-		<img src = "../images/blue-button-css.png"
-            alt = "Validate CSS!" 
-            style = "border: 0; width: 88px; height: 31px" /></a>
-</footer>
+	<div data-include = "components/swtl_footer.html"></div>
 </body>
 </html>
