@@ -168,5 +168,6 @@ ul {
 		 cursor: pointer;
 		 font-style: normal;
 		 font-family: Georgia;
+		 width: 25px;
 }
 header, nav, main, footer {display: block;}
