@@ -148,7 +148,7 @@ input::placeholder {
 }
 
 ul {
-		list-style-type: circle;
+		list-style-type: none;
 		display: inline-block;
 }
 .toclist	{
