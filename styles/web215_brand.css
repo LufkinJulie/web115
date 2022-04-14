@@ -1,0 +1,110 @@
+body {
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-bottom: 5px;
+		font-family: 'El Messiri', sans-serif;
+		color: #C1D4C8;
+		background: #C1D4C8;
+		font-size: 20px;
+}
+header h1 {
+		text-align: center;
+		color: #d93118;
+		font-style: italic;
+}
+header nav {
+	margin-top: -15px;
+}
+h2, h3, h4, p  {
+		text-align: center;
+		margin: 0px;
+		padding: .1em;
+}
+main div {
+			background-color: #E5E5DB;
+			display: block;
+}
+#bread {
+		top: 200px;
+		left: 45px;
+		float: left;
+		position: absolute;
+		height: 150px; width: 250px;
+		border-radius:0;
+		text-align: center;
+}
+ul {
+		text-align: center;
+		list-style-type: none;
+}
+.tagline {
+		text-align: center;
+		font-style: italic;
+		font-weight: bolder;
+		border-bottom: 10px double #BBAD9F;
+		font-size: 30px;
+		font-family: 'Dancing Script', cursive, sans-serif;
+		padding-bottom: 5px
+}
+footer div{
+		padding-top: 5px;
+		text-align: center;
+		font-size: 15px;
+}
+a {
+		color: #d93118;
+		
+}
+a:hover {
+		color: #BBAD9F;
+}
+footer a:hover {
+		color: #ffebcd;
+}
+header a:hover {
+		color: #ffebcd;
+}
+header a{
+		text-decoration: none;
+}
+footer a{
+		color: #d93118;
+		text-decoration: none;
+
+}
+footer, footer	p{
+		font-style: italic;
+		text-align: center;
+}
+nav {
+		text-align: center;
+		font-size: 20px;
+		
+}
+main p {
+		text-align: center;
+}
+.blocking {
+		border-bottom: 10px double #BBAD9F;
+		padding-bottom: 0px;
+}
+.brandtoc {
+		text-align: center;
+		list-style-type: none;
+		display: block;
+}
+.buttons {
+		 border: double #BBAD9F;
+		 color: #d93118;
+		 padding: 5px 24px;
+		 text-align: center;
+		 text-decoration: none;
+		 display: inline-block;
+		 font-size: 15px;
+		 margin: 4px 4px;
+		 cursor: pointer;
+		 font-style: normal;
+		 font-family: 'El Messiri', sans-serif;
+		 width: 55px;
+}
+header, nav, main, footer {display: block;}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Julie Lufkin&nbsp;&#10061;&nbsp;WEB 215&nbsp;&#10061;&nbsp;Introduction Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "styles/default.css"/>
+	<script src = "scripts/intro_form3.js"></script>
+	<meta charset = "utf-8">
+</head>
+<body>
+	<div data-include = "components/header_215.html"></div>
+<main>
+	<h2>Introdunction Form</h2>
+    <figure>
+        <img src = "images/allie_me_babe2.jpg" alt = "babe" />
+        <figcaption class = "babe">My husband and I visiting Babe the Blue Ox</figcaption>
+    </figure>
+	<form id="refresh">
+		<fieldset>
+			<label for = "firstName"><strong>First Name:</strong></label><br>
+			<textarea rows = "2" cols = "80" id = "firstName">Julie</textarea>
+			<br>
+			<label for = "lastName"><strong>Last Name:</strong></label><br>
+			<textarea rows = "2" cols = "80" id = "lastName">Lufkin</textarea>
+			<br>
+			<label for = "personal_background"><strong>Personal Background:</strong></label>
+			<textarea rows = "5" cols = "80" id = "personal_background">I moved to the Charlotte area back in 1998, originally from Boston MA.  I have lived all over the country from TX to WA.  I am married and have a cat (Guinness) and a dog (Newton).</textarea>
+			<br>
+			<label for = "academic_background"><strong>Academic Background:</strong></label><br>
+			<textarea rows = "4" cols = "80" id = "academic_background">I have a degree in Interior Design, Textile Surface Design and currently I am working on my Full Stack Programing Degree.</textarea>
+			<br>
+			<label for = "subject_background"><strong>Background in this subject:</strong></label><br>
+			<textarea rows = "4" cols = "80" id = "subject_background">I have no background in computers, I have mainly worked in retail merchandising.</textarea>
+			<br>
+			<label for = "computer"><strong>Primary Computer Platform</strong>:</label><br>
+			<textarea rows = "2" cols = "80" id = "computer">HP laptop</textarea>
+			<br>
+			<label for = "courses"><strong>Courses I'm Taking, & Why::</strong></label><br>
+			<textarea rows = "6" cols = "80" id = "courses">**CSC 221 - Advanced Python Programing - Required to finishing my degree                        **CSC 151 - JAVA Programing - Retaking, I want to take higher level JAVA classes                                                                          **WEB 250 - Database Driven Websites - Required to finishing my degree                                **WEB 215 - Advanced Markup and Scripting - Required to finishing my degree</textarea>
+			<br>
+			<label for = "remember_me"><strong>Something to Remember Me By:</strong></label><br>
+			<textarea rows = "4" cols = "80" id = "remember_me">I love playing with power tools and baking (I wish I had more time for hobbies, maybe after I graduate in the Spring).</textarea>
+			<br>
+			<label for = "sharing"><strong>I'd Also Like to Share:</strong></label><br>
+			<textarea rows = "2" cols = "80" id = "sharing"> I am a huge animal lover (not too fond of people).</textarea>
+			<br>
+
+			<label for="favorite_season" id="favorite_season"><strong>Favorite Season:</strong></label><br>
+                <input type="checkbox" id="winter" name="favorite_season" value="Winter">
+                <label for="winter">Winter</label><br>
+                <input type="checkbox" id="spring" name="favorite_season" value="Spring">
+                <label for="spring">Spring</label><br>
+                <input type="checkbox" id="summer" name="favorite_season" value="Summer" checked>
+                <label for="summer">Summer</label><br>
+                <input type="checkbox" id="fall" name="favorite_season" value="Fall">
+                <label for="fall">Fall</label><br>
+                <br>
+            
+            <label for="pets"><strong>Pets:</strong></labels><br>
+                <input type="radio" id="dog" name="pets" value="Dog" />
+                <label for="dog">Dog</label><br>
+                <input type="radio" id="cat" name="pets" value="Cat"  />
+                <label for="cat">Cat</label><br>
+                <input type="radio" id="both" name="pets" value="Both" checked/>
+                <label for="both">Both</label><br>
+                <input type="radio" id="neither" name="pets" value="Neither" />
+                <label for="neither">Neither</label><br>
+                <br>
+                
+			<input type = "button" id = "submit" onclick = "return getInfo()" value = "Submit" />
+		</fieldset>
+	</form>
+    <br>
+	<ul id = "getBackground" ></ul>
+</main>
+    <div data-include = "components/footer_215.html"></div>
+	<script src ="scripts/scriptDynamic.js"></script>
+</body>
+</html>
